@@ -1,4 +1,4 @@
-public class GridViewer
+public class Viewer
 {
 	public static void view(int[][] grid)
 	{
@@ -9,11 +9,11 @@ public class GridViewer
                 switch(grid[i][j])
                 {
                     case Maze.EMPTY:
-                        System.out.print("  ");
+                        System.out.print("ET");
                         break;
                         
                     case Maze.WALL:
-                        System.out.print("##");
+                        System.out.print("YE");
                         break;
                         
                     case Maze.START:
